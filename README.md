@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🏥 Hospital Website
+# 🏥 Nova Care 
 
 ### A modern and professional healthcare website built to provide a realistic hospital experience.
 
-[🌐 Live Demo](YOUR_LIVE_URL) • [💻 GitHub](YOUR_GITHUB_URL)
+[🌐 Live Demo]((https://nova-care-n3ereawmp-5alaf-s-projects.vercel.app/)) • [💻 GitHub]((https://github.com/5ALAF123))
 
 </div>
 
