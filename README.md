@@ -92,29 +92,9 @@ Key goals included:
 
 ## 🚀 Live Demo
 
-[Visit the Live Website](YOUR_LIVE_URL)
-
-## 📸 Screenshots
-
-Add screenshots of the project here.
+[Visit the Live Website](https://nova-care-n3ereawmp-5alaf-s-projects.vercel.app/)
 
 ```md
-![Hospital Website](./screenshots/homepage.png)
-📂 Project Structure
-hospital-website/
-│
-├── index.html
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│
-├── screenshots/
-│
-└── README.md
 🔮 Future Improvements
 🔐 Patient authentication
 📅 Real appointment management
