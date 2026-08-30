@@ -5,7 +5,7 @@
 
 ### A modern and professional healthcare website built to provide a realistic hospital experience.
 
-[🌐 Live Demo](https://nova-care-n3ereawmp-5alaf-s-projects.vercel.app/) • [💻 GitHub](https://github.com/5ALAF123)
+[🌐 Live Demo](https://nova-cares.vercel.app/) • [💻 GitHub](https://github.com/5ALAF123)
 
 </div>
 
