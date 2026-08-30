@@ -1,4 +1,4 @@
-<img width="1150" height="36" alt="logo" src="https://github.com/user-attachments/assets/21f38cd6-aa09-4a3c-bd65-c54f7929d654" />
+
 <div align="center">
 
 # 🏥 Nova Care 
