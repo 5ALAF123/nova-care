@@ -38,6 +38,9 @@ export const metadata: Metadata = {
     images: [{ url: "/logo.svg", width: 168, height: 36, alt: "Nova Care logo" }],
   },
   metadataBase: new URL("https://nova-care.example"),
+  verification: {
+    google: "I_YVp_kvfXk-No138lZ5QsXdw2sdnSmC-_0F2UNhweU",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
