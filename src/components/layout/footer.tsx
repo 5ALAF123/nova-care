@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Phone, Mail, MapPin, Clock, Globe, Heart, Share2, Star } from "lucide-react";
+import { Logo } from "@/components/ui/logo";
 
 export function Footer() {
   return (
@@ -8,13 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_1fr_1.1fr] gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3">
-              <div className="h-9 w-9 rounded-xl bg-white flex items-center justify-center text-[#0f1e3a] font-bold text-xs tracking-widest">NC</div>
-              <div>
-                <div className="font-bold tracking-[0.14em] text-sm">NOVA CARE</div>
-                <div className="text-[10px] tracking-[0.18em] text-white/60">ADVANCED MEDICINE</div>
-              </div>
-            </div>
+            <Logo variant="dark" size="md" />
             <p className="mt-4 text-sm leading-relaxed text-white/70 max-w-sm">
               Advanced medicine. Human care. A fictional premium hospital crafted as a portfolio project—designed to feel like a real, trustworthy healthcare institution.
             </p>

@@ -22,12 +22,20 @@ export const metadata: Metadata = {
   description:
     "Nova Care is a fictional modern hospital website offering specialist care, medical services, appointments, and patient resources. Portfolio project.",
   keywords: ["hospital", "healthcare", "Nova Care", "doctors", "appointment", "medical"],
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/logo-mark.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/apple-icon.svg", type: "image/svg+xml" }],
+  },
   openGraph: {
     title: "Nova Care — Exceptional Healthcare, Centered Around You",
     description:
       "A premium fictional hospital website. Find doctors, explore departments, and book appointments.",
     type: "website",
     locale: "en_US",
+    images: [{ url: "/logo.svg", width: 168, height: 36, alt: "Nova Care logo" }],
   },
   metadataBase: new URL("https://nova-care.example"),
 };

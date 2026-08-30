@@ -6,6 +6,7 @@ import { Search, Menu, X, Phone, Clock3, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { SearchModal } from "./search-modal";
+import { Logo } from "@/components/ui/logo";
 
 const nav = [
   { label: "Home", href: "/" },
@@ -68,14 +69,8 @@ export function Header() {
       {/* Main header */}
       <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-xl border-b border-slate-100">
         <div className="mx-auto max-w-[1280px] px-4 sm:px-6 h-[68px] flex items-center justify-between gap-6">
-          <Link href="/" className="flex items-center gap-3 shrink-0">
-            <div className="h-9 w-9 rounded-xl bg-[#0f2a5a] flex items-center justify-center text-white font-bold text-[13px] tracking-widest">
-              NC
-            </div>
-            <div className="leading-none">
-              <div className="font-bold text-[16px] tracking-[0.12em] text-[#0f1e3a]">NOVA CARE</div>
-              <div className="text-[10px] tracking-[0.18em] text-slate-500 font-medium">ADVANCED MEDICINE</div>
-            </div>
+          <Link href="/" className="flex items-center gap-3 shrink-0" aria-label="Nova Care - Home">
+            <Logo variant="light" size="md" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
@@ -143,10 +138,7 @@ export function Header() {
               className="fixed right-0 top-0 h-full w-[86%] max-w-[380px] bg-white z-50 lg:hidden flex flex-col shadow-2xl"
             >
               <div className="flex items-center justify-between px-6 py-5 border-b border-slate-100">
-                <div className="flex items-center gap-3">
-                  <div className="h-8 w-8 rounded-lg bg-[#0f2a5a] flex items-center justify-center text-white font-bold text-xs">NC</div>
-                  <span className="font-bold tracking-widest text-sm">NOVA CARE</span>
-                </div>
+                <Logo variant="light" size="sm" />
                 <button onClick={() => setMobileOpen(false)} className="h-9 w-9 rounded-full bg-slate-100 flex items-center justify-center">
                   <X className="h-5 w-5" />
                 </button>
