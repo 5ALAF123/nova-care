@@ -107,11 +107,11 @@ Key goals included:
 👨‍💻 Author
 
 5ALAF
-
+```
 GitHub: @5ALAF123
 
 <div align="center">
 
 ⭐ If you like this project, consider giving it a star!
 
-</div> ```
+</div>
