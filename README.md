@@ -1,6 +1,22 @@
+<img width="168" height="36" alt="logo" src="https://github.com/user-attachments/assets/21f38cd6-aa09-4a3c-bd65-c54f7929d654" />
 <div align="center">
 
 # 🏥 Nova Care 
+<svg width="168" height="36" viewBox="0 0 168 36" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nova Care logo">
+<title>Nova Care — Advanced Medicine</title>
+<rect width="36" height="36" rx="10" fill="#0f1e3a"/>
+<rect x="8" y="15.5" width="20" height="5" rx="1.5" fill="white"/>
+<rect x="15.5" y="8" width="5" height="20" rx="1.5" fill="white"/>
+<!-- nova sparkle -->
+<g transform="translate(26.5 5.5)">
+<path d="M4 0L4.9 2.1L7.5 3L4.9 3.9L4 6L3.1 3.9L0.5 3L3.1 2.1L4 0Z" fill="#22d3ee"/>
+<circle cx="4" cy="3" r="1.2" fill="white"/>
+</g>
+<!-- subtle highlight -->
+<path d="M10 4C18 4 28 9 32 14C30 10 26 6 22 4H10Z" fill="white" opacity="0.06"/>
+<text x="48" y="20" font-family="Manrope, Inter, system-ui, sans-serif" font-size="16" font-weight="800" letter-spacing="2.2" fill="#0f1e3a">NOVA CARE</text>
+<text x="48" y="30.5" font-family="Inter, system-ui, sans-serif" font-size="7" font-weight="600" letter-spacing="1.7" fill="#64748b">ADVANCED MEDICINE</text>
+</svg>
 
 ### A modern and professional healthcare website built to provide a realistic hospital experience.
 
